@@ -3,10 +3,12 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import Showcase from './components/Showcase';
 import CTA from './components/CTA';
+import FontLoader from './components/FontLoader';
 
 function App() {
   return (
     <div className="min-h-screen w-full bg-[#0b0b12]">
+      <FontLoader />
       {/* Simple top nav */}
       <header className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#0b0b12]/70 backdrop-blur">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 text-white">
